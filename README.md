@@ -8,7 +8,7 @@
 ## 배포 파이프라인
 
 ### 개요
-![hanghae-plus (2)](https://github.com/user-attachments/assets/18695f1f-ccff-428d-9326-be4f9ce5ac4a)
+![hanghae-plus (4)](https://github.com/user-attachments/assets/b992b2bd-f4c1-4d4c-86b5-6c119be70f06)
 1. 개발자는 개발이 완료된 코드를 main 브랜치에 푸시합니다.
 2. github actions을 통해 Next.js의 빌드 산출물(.output)이 S3 버킷으로 업로드됩니다.
 3. 업로드된 정적 산출물은 CloudFront를 통해 CDN으로 사용자에게 제공됩니다. 
